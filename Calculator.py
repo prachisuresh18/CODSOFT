@@ -6,7 +6,6 @@ result = None
 if operator == "+":
     result = number1 + number2
 
-
 elif operator == "-":
     result = number1 - number2
 
@@ -19,9 +18,10 @@ elif operator == "/":
     else:
         result = number1 / number2
 
+if result is not None:
+    print("Result: \n", result)
 else:
     print("Wrong input ")
 
 
-if result is not None:
-    print("Result: \n", result)
+
