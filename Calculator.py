@@ -17,11 +17,11 @@ elif operator == "/":
         print("Division by zero is not possible")
     else:
         result = number1 / number2
-
-if result is not None:
-    print("Result: \n", result)
 else:
     print("Wrong input ")
 
+
+if result is not None:
+    print("Result: \n", result)
 
 
